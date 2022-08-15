@@ -23,9 +23,22 @@ ul {
     font-size: 1rem;
 }
 
+.content > p {
+    border-left: 2px solid #8a008ab5;
+    padding-left: 1.6rem;
+    margin-top: 2rem;
+}
+
 .content > h1 {
     font-size: 2.5rem;
-    font-weight: 100;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+#role {
+    color: #252422c7;
+    font-size: 0.8rem;
+
 }
 
 #my-projects {
