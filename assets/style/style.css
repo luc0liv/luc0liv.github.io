@@ -1,5 +1,5 @@
 body {
-    background-color: #eae0d5;
+    background-color: #f8f9fa;
     color: #252422;
     font-family: 'Quicksand', sans-serif;
 }
@@ -11,9 +11,20 @@ ul {
 .about-me {
     display: flex;
     justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
     align-items: stretch;
     gap: 10%;
-    width: 100%;
+    padding: 2rem 1.5rem;
+}
+
+.content {
+    flex: 3;
+}
+
+.content > h1 {
+    font-size: 2.5rem;
+    font-weight: 100;
 }
 
 .links {
@@ -28,7 +39,7 @@ ul {
 }
 
 .my-picture {
-    width: min-content;
+    flex: 1;
 }
 
 .my-picture > img {
@@ -36,6 +47,6 @@ ul {
     border-radius: 4px;
     -webkit-box-shadow: 5px 5px 29px 2px rgba(0,0,0,0.58); 
     box-shadow: 5px 5px 29px 2px rgba(0,0,0,0.58);
-    min-width: 280px;
-    width: 20%;
+    width: 50%;
+    min-width: 250px;    
 }
